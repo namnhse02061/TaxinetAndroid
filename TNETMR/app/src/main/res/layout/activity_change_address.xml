@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/tv_home_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_home_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/et_home_number"
+        android:layout_below="@+id/tv_street"
+        android:gravity="bottom"
+        android:text="@string/home_number"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_home_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_street"
+        android:layout_toRightOf="@id/tv_home_number"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/tv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_street"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tv_home_number"
+        android:layout_alignTop="@+id/et_street"
+        android:layout_below="@+id/tv_district"
+        android:gravity="bottom"
+        android:text="@string/street"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_district"
+        android:layout_toRightOf="@id/tv_street"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tv_district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_district"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/tv_home_number"
+        android:layout_alignTop="@+id/et_district"
+        android:layout_below="@+id/tv_city"
+        android:gravity="bottom"
+        android:text="@string/district"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_city"
+        android:layout_toRightOf="@id/tv_district"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_city"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/tv_home_number"
+        android:layout_alignTop="@+id/et_city"
+        android:gravity="bottom|left"
+        android:text="@string/city"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/tv_city"
+        android:ems="10"
+        android:inputType="text" />
+
+    <!-- <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_home_number"
+        android:layout_marginTop="10dp" /> -->
+
+</RelativeLayout>

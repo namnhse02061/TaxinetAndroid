@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/tv_rider_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/facebook2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_distance"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tv_distance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_distance_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_distance"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_distance_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_rider_name"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/image_distance"
+        android:gravity="left|center"
+        android:text="@string/distance"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/tv_distance_title"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_distance_title"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:text="@string/distance"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/image_cost"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tv_cost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_cost_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_cost"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_cost_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/image_distance"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/image_cost"
+        android:gravity="left|center"
+        android:text="@string/fee"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/tv_cost_title"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_cost_title"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:text="@string/fee"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/image_from"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tv_from"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_from_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_from"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_from_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/image_cost"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/image_from"
+        android:gravity="left|center"
+        android:text="@string/from"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_from"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/tv_from_title"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_from_title"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:text="@string/phone_number"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/image_to"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tv_to"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_to_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_to"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_to_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/image_from"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/image_to"
+        android:gravity="left|center"
+        android:text="@string/to"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_to"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/tv_to_title"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_to_title"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:text="@string/phone_number"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/image_payment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tv_payment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_payment_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_payment"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_payment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/image_to"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/image_payment"
+        android:gravity="left|center"
+        android:text="@string/payment_method"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/tv_payment_title"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_payment_title"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:text="@string/phone_number"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_red"
+        android:onClick="pay"
+        android:text="@string/pay"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/D:/Projects/TNET/TNETMD/app/src/main/res/layout/activity_pay.xml -->

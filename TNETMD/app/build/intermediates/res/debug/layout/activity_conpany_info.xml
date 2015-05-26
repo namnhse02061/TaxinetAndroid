@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_no_record"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/no_record"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/company_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/image_name"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_name_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_company"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_name"
+                android:gravity="left|center"
+                android:text="@string/company_name"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_name_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_name_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_address"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_address"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_address_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_address"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_address_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/image_name"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_address"
+                android:gravity="left|center"
+                android:text="@string/address"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_address_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_address_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_city"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_city"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_city_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_city"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_city_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/image_address"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_address"
+                android:gravity="left|center"
+                android:text="@string/city"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_city_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_city_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_phone_zip_code"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_zip_code"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_zip_code_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_zip"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_zip_code_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_city"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_phone_zip_code"
+                android:gravity="left|center"
+                android:text="@string/zip_code"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_zip_code"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_zip_code_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_zip_code_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_vat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_vat"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_vat_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_vat"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_vat_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/image_phone_zip_code"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_phone_zip_code"
+                android:gravity="left|center"
+                android:text="@string/vat_number"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_vat"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_vat_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_vat_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_phone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tv_phone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/tv_phone_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_phone"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/image_vat"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/image_phone"
+                android:gravity="left|center"
+                android:text="@string/phone_number"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@id/tv_phone_title"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_phone_title"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="@string/phone_number"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout><!-- From: file:/D:/Projects/TNET/TNETMD/app/src/main/res/layout/activity_conpany_info.xml -->

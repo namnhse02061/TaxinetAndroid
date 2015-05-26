@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_promotion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/fresh_red"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_delete"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/fresh_red"
+                android:padding="15dp"
+                android:text="@string/cancel"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/facebook2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/facebook2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_from"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_from"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_from_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_from"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_from_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_from"
+            android:gravity="left|center"
+            android:text="@string/from"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_from_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_from_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_to"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_to"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_to_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_to"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_to_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image_from"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_to"
+            android:gravity="left|center"
+            android:text="@string/to"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_to"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_to_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_to_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout><!-- From: file:/D:/Projects/TNET/TNETMR/app/src/main/res/layout/item_promotion_trip.xml -->

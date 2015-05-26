@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">T-Net</string>
+    <string name="welcome">Chào mừng</string>
+    <string name="skip_and_start">Skip and start</string>
+    <string name="login">Đăng nhập</string>
+    <string name="account_not_active">Bạn phải kích hoạt tài khoản trước khi sử dụng</string>
+    <string name="wait_message">Xin hãy chờ trong khi chúng tôi kiểm tra thông tin</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="register">Đăng kí</string>
+    <string name="email">Email</string>
+    <string name="name">Tên</string>
+    <string name="address">Địa chỉ</string>
+    <string name="number_of_rider">Số lượng khách</string>
+    <string name="from">Từ</string>
+    <string name="to">Đến</string>
+    <string name="fee">Phí</string>
+    <string name="zip_code">Zip code</string>
+    <string name="vat_number">Mã số VAT</string>
+    <string name="password">Mật khẩu</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="usual_place">Địa điểm thường dùng</string>
+    <string name="add_home_address">Thêm địa chỉ nhà</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="logout_message">Sau khi đăng xuất, tất cả dữ liệu trên máy sẽ bị xóa, bạn có muốn đăng xuất không?</string>
+    <string name="account">Tài khoản</string>
+    <string name="trip_history">Lịch sử chuyến đi</string>
+    <string name="success">Thành công</string>
+    <string name="save">Lưu</string>
+    <string name="edit">Sửa</string>
+    <string name="phone">Điện thoại</string>
+    <string name="cost">Giá</string>
+    <string name="payment_method">Hình thức thanh toán</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="pick_up_here">Đón tại đây</string>
+    <string name="stop_here">Dừng tại đây</string>
+    <string name="move">Di chuyển</string>
+    <string name="register_promotion_trip">Đăng kí chuyến đi khuyến mãi</string>
+    <string name="home_number">Home Number</string>
+    <string name="street">Street</string>
+    <string name="district">District</string>
+    <string name="city">City</string>
+    <string name="register_rider">Register rider</string>
+    <string name="first_name">Họ</string>
+    <string name="last_name">Tên</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="set_date">Chọn ngày</string>
+    <string name="set_time">Chọn giờ</string>
+    <string name="set">Đặt</string>
+    <string name="cancel_request">Hủy yêu cầu</string>
+    <string name="back">Trở lại</string>
+    <string name="reject">Từ chối</string>
+    <string name="reset_password">Láy lại mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="change_password">Thay đổi mật khẩu</string>
+    <string name="company_info">Thông tin công ty</string>
+    <string name="guideline_get_password">* Hãy nhập địa chỉ email của bạn, chúng tôi sẽ gửi mật khẩu mới tới địa chỉ email đó cho bạn</string>
+    <string name="request">Request</string>
+    <string name="time">Thời gian</string>
+    <string name="rider">Hành khách</string>
+    <string name="desc_list_item_icon">Note</string>
+    <string name="driver">Lái xe</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="delete">Xóa</string>
+    <string name="no_record">Không có thông tin</string>
+    <string name="delete_vip_rider">Đang xóa khách hàng VIP</string>
+    <string name="action_edit">Sửa</string>
+    <string name="taxi">Taxi</string>
+    <string name="two_password_error">2 Mật khẩu mới không trùng nhau</string>
+    <string name="login_error">Tài khoản hoặc mật khẩu không chính xác</string>
+    <string name="error">Lỗi</string>
+    <string name="cannot_connect_to_server">Không thể kết nối đến máy chủ</string>
+    <string name="no_internet_connection_message">Hãy kết nối mạng để thực hiện tác vụ này</string>
+    <string name="distance">Khoảng cách</string>
+    <string name="password_length_error">Mật khẩu phải lớn hơn 6 kí tự</string>
+    <string name="continues">Tiếp tục</string>
+    <string name="picked">Đã đón khách</string>
+    <string name="response_request_message">Đang gửi yêu cầu đến máy chủ</string>
+    <string name="pay">Thanh toán</string>
+    <string name="change_password_success_message">Đổi mật khẩu thành công</string>
+    <string name="change_password_title">Đổi mật khẩu</string>
+    <string name="change_password_fail_message">Mật khẩu cũ của bạn đã bị thay đổi, xin hãy đang nhập lại</string>
+    <string name="update_complete">Cập nhật hoàn tất</string>
+    <string name="update_profile_title">Cập nhận thông tin</string>
+    <string name="update_warning_title">Cảnh báo</string>
+    <string name="update_warning_message">Bạn đang cập nhật thông tin, bạn có muốn dừng lại để thực hiện hành động này </string>
+    <string name="update_profile_message_success">Thông tin của bạn đã được cập nhật</string>
+    <string name="update_profile_message_error">Ôi \.\.\. đã có lỗi xảy ra với thông tin của bạn</string>
+    <string name="am">Sáng</string>
+    <string name="pm">Chiều</string>
+    <string name="stranger_rider">Khách lạ</string>
+    <string name="regular_rider">Khách quen</string>
+    <string name="add_vip_rider_success_message">Thêm khách hàng VIP thành công</string>
+    <string name="add_vip_rider_fail_message">Thêm khách hàng VIP thất bại</string>
+    <string name="choose_pick_up_place">Chọn điểm đón</string>
+    <string name="choose_end_point_place">Chọn điểm dừng</string>
+    <string name="other_setting">Cài đặt khác</string>
+    <string name="process3_error">Hãy điền đủ thông tin ở bước 3</string>
+    <string name="process2_error">Hãy chọn điểm dừng tại bước 2</string>
+    <string name="process1_error">Hãy chọn điểm đón ở bước 1</string>
+    <string name="pick_marker_message">Hãy chọn vị trí trên bản đồ</string>
+    <string name="update">Cập nhật</string>
+    <string name="complete_register">Hoàn tất đăng kí</string>
+    <string name="accept_register_promotrion_trip">Đồng ý yêu cầu thành công</string>
+    <string name="cancel_register_promotrion_trip">Khách hàng đã hủy chuyến đi khuyến mãi</string>
+    <string name="reject_register_promotrion_trip">Từ chối chuyến đi khuyến mãi thành công</string>
+    <string name="not_have_rider_register_this_trip">Chưa có khách hàng nào đăng kí chuyến đi này</string>
+    <string name="waiting_response">Đợi phản hồi</string>
+    <string name="accpeted">Chấp nhận</string>
+    <string name="deleting_payment">Xóa thanh toán</string>
+    <string name="can_not_delete_payment">Không thể xóa thanh toán này</string>
+    <string name="delete_payment_successfully">Xóa thanh toán thành công</string>
+    <string name="opening">Đang mở</string>
+    <string name="closed">Đã đóng</string>
+    <string name="out_of_date">Hết hạn</string>
+    <string name="register_promotion_trip_message">%1$s đã đăng kí chuyến đi khuyến mãi</string>
+    <string name="show">Hiển thị</string>
+    <string name="close">Đóng</string>
+    <string name="search">Nhập địa điểm</string>
+    <string name="change_home_address_title">Thay đổi địa chỉ nhà</string>
+    <string name="change_home_address_success_message">Thay đổi địa chỉ nhà thành công!</string>
+    <string name="change_home_address_fail_message">Thay đổi địa chỉ nhà thất bại!</string>
+    <string name="update_home_addresss">Cập nhật địa chỉ nhà</string>
+    <string name="cancel_promotion_trip_message">%1$s đã hủy chuyến đi khuyễn mãi</string>
+    <string name="end_time">Thời gian kết thúc</string>
+    <string name="company_name">Tên công ty</string>
+    <string name="card_type">Loại thẻ: </string>
+    <string name="expired_date">Ngày hết hạn: </string>
+    <string name="Cvv">Cvv: </string>
+    <string name="card_number">Số thẻ: *********</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="start_time">Thời gian bắt đầu</string>
+    <string name="add_vip_rider">Thêm vào khách hàng VIP</string>
+    <string name="remove_favorite">Remove Favorite</string>
+    <string name="empty_email">Xin hãy điện địa chỉ email của bạn</string>
+    <string name="empty_password">Xin hãy điện mật khẩu của bạn</string>
+    <string name="email_format_error">Định dạng email không đúng</string>
+    <string name="update_company_info">Đã cập nhật thông tin của công ty</string>
+    <string name="credit_card">Credit card</string>
+    <string name="visa">Visa</string>
+    <string name="master_card">Master card</string>
+    <string name="status">Trạng thái</string>
+    <string name="about_tnet">Về T-NET</string>
+    <string name="about_info">T-NET là phần mềm về gọi Taxi, quản lý thông tin, lịch sử hành trình.</string>
+    <string name="version">Phiên bản 1.0</string>
+    <string name="copyright">\@Bản quyền thuộc về công ti TTI</string>
+    <string name="tnet_address">Địa chỉ: Số 35, 345/19 Xuân Đỉnh, Hà Nội, Việt Nam</string>
+    <string name="tnet_tel">Điện thoại liên hệ: (+84) \- 04\-37571996</string>
+    <string name="tnet_email">Email: tnet@gmail.com</string>
+    <string name="support">Hỗ trợ</string>
+    <string name="support_info">Nêu bạn gặp bất cứ vấn đề nào, xin hãy liên hệ với chúng tôi thông qua email hoặc điện thoại</string>
+    <string name="subject">Tiêu đề</string>
+    <string name="content">Nội dung</string>
+    <string name="send">Gửi</string>
+    <string name="null_subject">Xin hãy điền tiêu đề</string>
+    <string name="null_content">Xin hãy điền nội dung</string>
+    <string name="promotion_trip_null">Can\'t not find this promotion trip</string>
+    <string name="two_password_error_2">Mật khẩu mới và cũ phải khác nhau</string>
+    <string name="updating">Xin hãy chờ một chút trong khi cập nhật thông tin</string>
+    <string name="reset_password_successfully_message">Mật khẩu mới đã được gửi tới email của bạn.</string>
+    <string name="reset_password_fail_message">Địa chỉ emal không chính xác.</string>
+    <string name="null_email">Xin hãy điền địa chỉ email.</string>
+    <string name="null_phone_number">Xin hãy điền số điện thoại của bạn.</string>
+    <string name="null_first_name">Xin hãy điền họ của bạn.</string>
+    <string name="null_last_name">Xin hãy điền tên của bạn.</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+    <string name="send_feedback_successfully">Cảm ơn những đóng góp phản hồi của bạn, chúng tôi luôn mong muốn nhận được những phẩn hồi tích cực từ người dùng.</string>
+    <string name="response_register_promotrion">%1$s đã đăng kí chuyến đi khuyến mại của bạn</string>
+    <string name="response_cancel_promotrion">%1$s đã hủy chuyến đi khuyến mại của bạn</string>
+    <string name="cancel_request_title">Hủy yêu cầu</string>
+    <string name="response_request">Phản hồi yêu cầu</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Thông tin cá nhân</item>
+        <item>Thông tin Công ty</item>
+        <item>Chuyến đi khuyến mãi</item>
+        <item>Hành khách VIP</item>
+        <item>Lịch sử chuyến đi</item>
+        <item>Thanh toán</item>
+        <item>Khuyến mãi</item>
+        <item>Hỗ trợ</item>
+        <item>Giới thiệu</item>
+        <item>Đăng xuất</item>
+    </string-array>
+
+    <!-- Distance to show driver -->
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="language">
+        <item>Tiếng việt</item>
+        <item>English</item>
+    </string-array>
+
+</resources>

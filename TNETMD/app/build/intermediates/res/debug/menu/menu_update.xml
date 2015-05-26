@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/update"/>
+
+</menu><!-- From: file:/D:/Projects/TNET/TNETMD/app/src/main/res/menu/menu_update.xml -->

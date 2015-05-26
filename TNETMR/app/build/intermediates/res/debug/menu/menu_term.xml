@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/accept"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/accept"/>
+    <item
+        android:id="@+id/deni"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/reject"/>
+
+</menu>
+<!-- From: file:/D:/Projects/TNET/TNETMR/app/src/main/res/menu/menu_term.xml -->

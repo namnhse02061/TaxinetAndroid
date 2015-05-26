@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_promotion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/facebook2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/rider"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_name"
+            android:layout_marginRight="10dp"
+            android:background="@color/facebook2"
+            android:gravity="center"
+            android:text="@string/status"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_from"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_from"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_from_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_from"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_from_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_name"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_from"
+            android:gravity="left|center"
+            android:text="@string/from"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_from_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_from_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_to"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_to"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_to_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_to"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_to_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image_from"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_to"
+            android:gravity="left|center"
+            android:text="@string/to"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_to"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_to_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_to_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_number_of_seats"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_number_of_seats"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_number_of_seats_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_star"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_number_of_seats_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image_to"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_number_of_seats"
+            android:gravity="left|center"
+            android:text="@string/number_of_rider"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_number_of_seats"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_number_of_seats_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_number_of_seats_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/number_of_rider"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_time"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_time_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_history"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image_number_of_seats"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_time"
+            android:gravity="left|center"
+            android:text="@string/time"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_time_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_time_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_phone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_phone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_phone_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_phone"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_phone_title"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_phone"
+            android:gravity="left|center"
+            android:text="@string/phone_number"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_phone_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_phone_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/phone_number"
+            android:textSize="14sp" />
+        
+        <ImageView
+            android:id="@+id/image_fee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tv_fee"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_fee_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_cost"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_fee_title"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_phone"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_fee"
+            android:gravity="left|center"
+            android:text="@string/fee"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_fee"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/tv_fee_title"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_fee_title"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/fee"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_fee"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_register"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_green"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout><!-- From: file:/D:/Projects/TNET/TNETMR/app/src/main/res/layout/item_promotion_trip_details.xml -->

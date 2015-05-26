@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pick_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:iconifiedByDefault="false"
+        android:inputType="text"
+        android:singleLine="true" />
+
+   <RelativeLayout
+        android:id="@+id/other_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/grayish_green"
+        android:padding="10dp" >
+
+       <EditText
+            android:id="@+id/et_rider_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/number_of_rider"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+
+
+        <Button
+            android:id="@+id/bt_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_rider_number"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="@string/time"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/process"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/boder" >
+
+        <Button
+            android:id="@+id/process1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerline"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_process"
+            android:onClick="process1"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/process2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerline"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_process"
+            android:onClick="process2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/process3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerline"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_process"
+            android:onClick="process3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/process1"
+            android:layout_alignTop="@id/process1"
+            android:layout_toLeftOf="@id/process2"
+            android:layout_toRightOf="@id/process1"
+            android:src="@drawable/ic_process_line" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/process1"
+            android:layout_alignTop="@id/process1"
+            android:layout_toLeftOf="@id/process3"
+            android:layout_toRightOf="@id/process2"
+            android:src="@drawable/ic_process_line" />
+
+        <ImageView
+            android:id="@+id/centerline"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/center_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/gray_line" />
+
+        <TextView
+            android:id="@+id/center_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/centerline2"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/choose_pick_up_place"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/centerline2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/pick"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/gray_line" />
+
+        <Button
+            android:id="@+id/pick"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@color/grayish_green"
+            android:onClick="pick"
+            android:text="@string/pick_up_here"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

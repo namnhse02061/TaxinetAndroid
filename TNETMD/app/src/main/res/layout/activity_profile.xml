@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/et_last_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/et_first_name"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/image"
+            android:background="@drawable/border_bottom"
+            android:gravity="left|center"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/et_first_name"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_first_name"
+            android:background="@color/white"
+            android:gravity="left|center"
+            android:hint="@string/last_name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="20dp"
+            android:text="@string/account"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl_account_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_account"
+            android:background="@drawable/boder" >
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_bottom"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_email"
+                android:background="@drawable/border_bottom"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_balance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_phone"
+                android:background="@drawable/border_bottom"
+                android:drawableLeft="@drawable/ic_cash"
+                android:drawablePadding="10dp"
+                android:hint="@string/back"
+                android:inputType="phone"
+                android:padding="10dp" />
+
+            <Spinner
+                android:id="@+id/sp_language"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_balance"
+                android:background="@color/white"
+                android:entries="@array/language"
+                android:hint="@string/back"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:spinnerMode="dialog" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_account_detail"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:onClick="changePassword"
+            android:text="@string/change_password"
+            android:textColor="@color/facebook"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_usual_place"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_password"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/usual_place"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_usual_place"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_usual_place"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bt_home_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boder"
+                android:drawableLeft="@drawable/ic_about"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/ic_arrow"
+                android:gravity="left|center"
+                android:onClick="pickHomeAddress"
+                android:padding="10dp"
+                android:text="@string/add_home_address"
+                android:textColor="@color/facebook"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_company_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:onClick="companyInfo"
+                android:text="@string/company_info"
+                android:textColor="@color/facebook"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_usual_place"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_red"
+            android:onClick="logout"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

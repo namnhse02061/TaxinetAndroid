@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">T-Net</string>
+    <string name="action_settings">Settings</string>
+    <string name="call_taxi_firm">Call Taxi Firm</string>
+    <string name="welcome">Welcome</string>
+    <string name="skip_and_start">Skip and start</string>
+    <string name="login">Login</string>
+    <string name="account_not_active">You must active your account before you this app</string>
+    <string name="wait_message">Please wait until we check your information</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="estimate">Estimate</string>
+    <string name="real">Real</string>
+    <string name="address">address</string>
+    <string name="number_of_rider">Number of rider</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="fee">Fee</string>
+    <string name="zip_code">Zip code</string>
+    <string name="vat_number">VAT Number</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="connected_account">Connected Account</string>
+    <string name="connected">Connected</string>
+    <string name="usual_place">Usual Place</string>
+    <string name="add">Add</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">All data on this device will be deleted, you may want to logout?</string>
+    <string name="account">Account</string>
+    <string name="trip_history">Trip History</string>
+    <string name="success">Success</string>
+    <string name="register_success">Your email was regitered with server, now you can call taxi in anyhwere and anytime</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="phone">Phone</string>
+    <string name="distance_estimate">Distance estimate</string>
+    <string name="real_distance">Real distance</string>
+    <string name="cost">Cost</string>
+    <string name="payment_method">Payment</string>
+    <string name="accept">Accept</string>
+    <string name="pick_up_here">Pick up here</string>
+    <string name="stop_here">Stop here</string>
+    <string name="move">Move</string>
+    <string name="register_promotion_trip">Registing promotion trip</string>
+    <string name="home_number">Home Number</string>
+    <string name="street">Street</string>
+    <string name="district">District</string>
+    <string name="city">City</string>
+    <string name="register_rider">Register rider</string>
+    <string name="company_promotion">Company Promotion</string>
+    <string name="first_name">Fisrt Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="set">Set</string>
+    <string name="cancel_request">Cancel request</string>
+    <string name="back">Back</string>
+    <string name="term">Term</string>
+    <string name="reject">Reject</string>
+    <string name="get_password">Get Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_successfully_message">Reset Password Successful</string>
+    <string name="reset_password_fail_message">Reset Password Failed</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="company_info">Company Information</string>
+    <string name="confirm_code">Confirm Code</string>
+    <string name="guideline_get_password">* Enter you email or number, we will re-create password for you</string>
+    <string name="your_request">Your request</string>
+    <string name="request_to_you">Request to you</string>
+    <string name="request">Request</string>
+    <string name="request_message">You must be respone request before do this action</string>
+    <string name="cancel_request_title">Request</string>
+    <string name="cancel_request_message">Request was cancel</string>
+    <string name="picking_request_title">Request</string>
+    <string name="picking_request_message">Request was accepted. Taxi incoming.</string>
+    <string name="picked_request_title">Request</string>
+    <string name="picked_request_message">Taxi arrrived</string>
+    <string name="completed_request_title">Trip Completed!</string>
+    <string name="completed_request_message">Trip has been completed. Thank you for using our services!</string>
+    <string name="reject_request_title">Request</string>
+    <string name="reject_request_message">Request was rejected</string>
+    <string name="time">Time</string>
+    <string name="rider">Rider</string>
+    <string name="note">Note</string>
+    <string name="desc_list_item_icon">Note</string>
+    <string name="driver">Driver</string>
+    <string name="busy">• Busy</string>
+    <string name="avalible">• Avalible</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_vip_rider">Add to VIP rider</string>
+    <string name="phone_number_value">(04) 3 113</string>
+    <string name="remove_favorite">Remove Favorite</string>
+    <string name="add_note">Add Note</string>
+    <string name="starting_point">Starting point</string>
+    <string name="stopping_point">Stopping point</string>
+    <string name="same_journey">Same Journey</string>
+    <string name="selected_driver">Selected Driver</string>
+    <string name="remove_driver">Remove Driver</string>
+    <string name="delete">Delete</string>
+    <string name="no_record">No record</string>
+    <string name="delete_vip_rider">Deleting vip rider</string>
+    <string name="action_edit">Edit</string>
+    <string name="taxi">Taxi</string>
+    <string name="taxi_truck">Truck</string>
+    <string name="place">Place</string>
+    <string name="packing_place">Packing Place</string>
+    <string name="empty_email">Please enter your email</string>
+    <string name="two_password_error">Two password must be the same</string>
+    <string name="phonenumber_error">Wrong format of phone number</string>
+    <string name="login_error">Account or password is incorrect</string>
+    <string name="register_blank_error">You must fill all the information</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error">Error</string>
+    <string name="alert_internet_error_title">Internet Connection Error</string>
+    <string name="alert_internet_error_message">Please connect to working Internet connection</string>
+    <string name="alert_term_title">Term Error</string>
+    <string name="alert_term_message">You need to agree with our term before register</string>
+    <string name="alert_invalid_info">Invalid Information</string>
+    <string name="no_internet_connection_title">No Internet Connection.</string>
+    <string name="cannot_connect_to_server">Cannot connect to server</string>
+    <string name="no_internet_connection_message">Please connect to the internet before do this action</string>
+    <string name="wrong_email_or_password">Email or password is incorrect</string>
+    <string name="distance">Distance</string>
+    <string name="password_length_error">Password must be more than 6 character</string>
+    <string name="continues">Continue</string>
+    <string name="agree_with_term">I agree with term</string>
+    <string name="picked">Picked</string>
+    <string name="pick">Pick</string>
+    <string name="show_trip_info">Trip info</string>
+    <string name="pick_and_complete">Pick and complete</string>
+    <string name="email_or_password">Email or phone number</string>
+    <string name="response_request">Response Request</string>
+    <string name="getting_data">Getting Data</string>
+    <string name="response_request_message">Responsing request to server</string>
+    <string name="pay">Pay</string>
+    <string name="change_password_success_message">Your password was changed!</string>
+    <string name="change_password_title">Change password</string>
+    <string name="change_password_fail_message">Your old password is not corrent, you need to login before change password again</string>
+    <string name="update_company_info">Updated information of your company</string>
+    <string name="update_profile_title">Updated Profile</string>
+    <string name="update_warning_title">Warning</string>
+    <string name="update_warning_message">You are editting your profile, do you want to continues to do this </string>
+    <string name="update_profile_message_success">Your profile was updated</string>
+    <string name="update_profile_message_error">Oops \.\.\. Have trouple with your profile</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="stranger_rider">Stranger rider</string>
+    <string name="regular_rider">Regular rider</string>
+    <string name="add_vip_rider_message">Adding VIP Rider</string>
+    <string name="add_vip_rider_success_message">Add VIP rider Successfully</string>
+    <string name="add_vip_rider_fail_message">Add VIP rider Failed</string>
+    <string name="choose_pick_up_place">Choose pick up place</string>
+    <string name="choose_end_point_place">Choose end point place</string>
+    <string name="other_setting">Other setting</string>
+    <string name="process3_error">Please fill all information in step 3</string>
+    <string name="process2_error">Please choose stopping point in step 2</string>
+    <string name="process1_error">Please choose pick up place in step 1</string>
+    <string name="pick_marker_message">You have to pick marker before do this action</string>
+    <string name="search_hint">Enter Place</string>
+    <string name="search_settings">Search</string>
+    <string name="price">Price</string>
+    <string name="reload">Reload</string>
+    <string name="start_point">Start Point</string>
+    <string name="end_point">End Point</string>
+    <string name="cost_estimate">Cost Estimate</string>
+    <string name="send_request">Send request</string>
+    <string name="rider_waiting_response">Request was sent successful.Waiting for driver response</string>
+    <string name="response_accept_message">Taxi is coming to you. Please wait</string>
+    <string name="delete_journey">Delete journey</string>
+    <string name="pick_address">Pick address</string>
+    <string name="stranger_driver">Stranger driver</string>
+    <string name="regular_driver">Regular driver</string>
+    <string name="add_favorite_driver_message">Adding Favorite Driver</string>
+    <string name="add_favorite_driver_success_message">Add Favotite Driver Successfully</string>
+    <string name="add_favorite_driver_fail_message">Add Favorite Driver Failed</string>
+    <string name="add_favorite_driver">Add Favorite Driver</string>
+    <string name="opening">Opening</string>
+    <string name="closing">Closing</string>
+    <string name="out_of_date">Out of date</string>
+    <string name="search">Search</string>
+    <string name="find_promotion_trip">Find Promotion Trip</string>
+    <string name="waiting_response">Waiting for Driver Response</string>
+    <string name="accpeted">Driver accepted</string>
+    <string name="reject_register_promotrion_trip">Reject</string>
+    <string name="accept_register_promotrion_trip">Accept Promotion Trip</string>
+    <string name="cancel_register_promotrion_trip">Cancel Promotion Trip</string>
+    <string name="complete_register">Complete Register</string>
+    <string name="cancel_promotion_trip_message">Your Promotion Trip request has been canceled</string>
+    <string name="reject_promotion_trip_message">Your Promotion Trip request has been rejected</string>
+    <string name="accepted_promotion_trip_message">Your Promotion Trip request has been accepted</string>
+    <string name="about_tnet">About T-NET</string>
+    <string name="about_info">T-NET is Transport and Trading Information System</string>
+    <string name="version">Version 1.0</string>
+    <string name="copyright">\@Copyright 2015 by TTI Company</string>
+    <string name="tnet_address">Address: No 35, 345/19 Xuan Dinh Street, Ha Noi, Viet Nam</string>
+    <string name="tnet_tel">Telephone: (+84) \- 04\-37571996</string>
+    <string name="tnet_email">Email: tnet@gmail.com</string>
+    <string name="support">Support</string>
+    <string name="support_info">If you have any issues, please contact us via telephone or email</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="send">Send</string>
+    <string name="null_subject">Please enter subject</string>
+    <string name="null_content">Please enter content</string>
+    <string name="no_email_client">There is no email client installed.</string>
+    <string name="choose_email">Choose an email</string>
+    <string name="can_not_make_call">Your device can not make this call</string>
+    <string name="promotion_trip_null">Can\'t not find this promotion trip</string>
+    <string name="two_password_error_2">New password must be different from old one</string>
+    <string name="updating">Please wait while update information</string>
+    <string name="send_feedback_successfully">Send Feedback Successful</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="status">Status</string>
+    <string name="create_request">Create Request</string>
+    <string name="response">Response</string>
+    <string name="response_cancel_message">Your request was cancel</string>
+    <string name="response_cancel_promotrion">Your registration was cancel</string>
+    <string name="response_rejct_promotrion">Your registration was reject</string>
+    <string name="response_accept_promotrion">Your registration was accept</string>
+    <string name="exist_email_title">Exist email</string>
+    <string name="exist_email_message">Your email was registered before, if you forgot password, please reset password.</string>
+    <string name="email_format_error">Wrong format of email</string>
+    <string name="empty_password">Please enter your password</string>
+    <string name="null_email">Please enter your email address.</string>
+    <string name="null_phone_number">Please enter your phone number.</string>
+    <string name="null_first_name">Please enter your first name.</string>
+    <string name="null_last_name">Please enter your last name.</string>
+    <string name="no_promotion_trip">We can\'t find any promotion trip match with your request</string>
+    <string name="registered">Registered</string>
+    <string name="accepted">Accepted</string>
+    <string name="picked_message">Have a safe and good trip</string>
+    <string name="close">Close</string>
+    <string name="in_trip_message">You are in trip</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Profile</item>
+        <item>Find Promotion Trip</item>
+        <item>Promotion Trip</item>
+        <item>Favorite Driver</item>
+        <item>Trip History</item>
+        <item>Support</item>
+        <item>About</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- Distance to show driver -->
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_promotion_trip</item>
+        <item>@drawable/ic_promotion_trip</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string-array name="language">
+        <item>Tiếng việt</item>
+        <item>English</item>
+    </string-array>
+
+</resources>
