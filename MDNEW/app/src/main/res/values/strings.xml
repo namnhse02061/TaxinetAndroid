@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MDNEW</string>
+    <string name="action_settings">Settings</string>
+    <string name="close">Close</string>
+
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    //StartApp
+    <string name="btnNextView">Skip for start</string>
+    <string name="driver_start_welcome">Taxinet service</string>
+
+    //Login
+    <string name="title_activity_login">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnForgotPassword">Forgot Password</string>
+    //Error
+    <string name="error">Error</string>
+
+    <string name="no_internet_connection_title">No Internet Connection.</string>
+    <string name="cannot_connect_to_server">Cannot connect to server</string>
+    <string name="no_internet_connection_message">Please connect to the internet before do this action</string>
+    //Empty
+    <string name="empty_email">Empty Email</string>
+    <string name="empty_password">Empty Password</string>
+
+    //Length
+    <string name="password_length_error">Password length error</string>
+
+    //Format
+    <string name="email_format_error">Email format error</string>
+    <string name="title_activity_upload_file">UploadFile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_up_load_image">UpLoadImage</string>
+
+</resources>

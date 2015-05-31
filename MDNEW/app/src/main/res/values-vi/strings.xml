@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MDNEW</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="close">Đóng</string>
+
+    <string name="set_date">Chọn ngày</string>
+    <string name="set_time">Chọn giờ</string>
+    <string name="set">Đặt</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="am">Sáng</string>
+    <string name="pm">Chiều</string>
+    //StartApp
+    <string name="btnNextView">Bỏ qua bước này để bắt đầu</string>
+    <string name="driver_start_welcome">Dịch vụ taxinet</string>
+
+    //Login
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="btnLogin">Đăng nhập</string>
+    <string name="btnForgotPassword">Quên mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="wait_message">Xin hãy chờ trong khi chúng tôi kiểm tra thông tin</string>
+
+    //Lỗi
+    <string name="error">Lỗi</string>
+
+    <string name="no_internet_connection_title">Lỗi kết nối</string>
+    <string name="cannot_connect_to_server">Không thể kết nối đến máy chủ</string>
+    <string name="no_internet_connection_message">Hãy kết nối mạng để thực hiện tác vụ này</string>
+    //Empty
+    <string name="empty_email">Chưa nhập email</string>
+    <string name="empty_password">Chưa nhập mật khẩu</string>
+
+    //Length
+    <string name="password_length_error">Độ dài mật khẩu không đúng</string>
+
+    //Format
+    <string name="email_format_error">Sai định dạng mail</string>
+</resources>
